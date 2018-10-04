@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--Pagina del formulario registro-->
+    <h2>Registro</h2>
+    <hr>
+
+    <!--conexion con el post de registrar.php-->
+    <form action="controlador/registrar.php" method="post">
+
+     <!--             labels                                textbox cada uno con nombre                    saltos de linea  -->
+        <label for="">Nombre: </label><br>              <input type="text" name="nombre"          id="">        <br><br>
+        <label for="">Apellido: </label><br>            <input type="text" name="apellido"        id="">        <br><br>
+        <label for="">Documento: </label><br>           <input type="text" name="documento"       id="">        <br><br>
+        <label for="">Fecha nacimiento: </label><br>    <input type="date" name="fechaNacimiento" id="">        <br><br>
+        <label for="">Rol: </label><br>                 <input type="text" name="rol" id="">        <br><br>
+     <!--Boton de registrar-->
+        <br><input type="submit" value = "registrar">  <br><br>
+
+     <!--link a la pagina index.html-->
+        <a href="index.html"> Atras </a>
+    
+    </form>
+</body>
+</html>
